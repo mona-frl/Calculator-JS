@@ -47,7 +47,7 @@ button {
 }
 
 .clear {
-    width: 10rem;
+    width: 10rem
 }
 
 .backspace {
@@ -81,10 +81,6 @@ button {
     background-color: #b1afaf;
 }
 
-.number-pressed {
-    background-color: #ebebeb;
-}
-
 .operator:hover,
 .result:hover {
     background-color: #e2a463;
@@ -94,12 +90,6 @@ button {
 .result:active {
     background-color: #8e5e2c;
 }
-
-.operator-pressed {
-    background-color: #e2a463;
-}
-
-
 
 footer {
     margin-top: 5rem;
