@@ -1,0 +1,119 @@
+body {
+    text-align: center;
+    margin: 5%;
+    background-color: #ececed;
+}
+
+h1,
+h2 {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+
+h2 {
+    padding-bottom: 2rem;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.grid-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.display {
+    font-family: "Courier New", Courier, monospace;
+    word-break: break-all;
+    background-color: #1f1e1e;
+    text-orientation: sideways-right;
+    font-size: 3rem;
+    text-align: right;
+    color: white;
+    width: 19.5rem;
+    padding-top: 3rem;
+    padding-right: 0.5rem;
+}
+
+button {
+    border: 1px solid black;
+    cursor: pointer;
+    padding: 1rem 2rem;
+    font-size: 2rem;
+    background-color: #d8d9db;
+}
+
+.clear {
+    width: 10rem;
+}
+
+.backspace {
+    width: 5rem;
+}
+
+.operator,
+.result {
+    width: 5rem;
+    background-color: #df974c;
+    color: white;
+}
+
+.number {
+    width: 5rem;
+}
+
+.zero {
+    width: 15rem;
+}
+
+.number:hover,
+.clear:hover,
+.backspace:hover {
+    background-color: #ebebeb;
+}
+
+.number:active,
+.clear:active,
+.backspace:active {
+    background-color: #b1afaf;
+}
+
+.number-pressed {
+    background-color: #ebebeb;
+}
+
+.operator:hover,
+.result:hover {
+    background-color: #e2a463;
+}
+
+.operator:active,
+.result:active {
+    background-color: #8e5e2c;
+}
+
+.operator-pressed {
+    background-color: #e2a463;
+}
+
+
+
+footer {
+    margin-top: 5rem;
+    color: #1f1e1e;
+}
+
+a {
+    color: #1f1e1e;
+}
+
+a:hover {
+    color: #373737;
+}
+
+a:active {
+    color: #6e6d6d
+}
