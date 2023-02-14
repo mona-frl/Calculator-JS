@@ -30,7 +30,7 @@ p {
     word-break: break-all;
     background-color: #1f1e1e;
     text-orientation: sideways-right;
-    font-size: 3rem;
+    font-size: 46px;
     text-align: right;
     color: white;
     width: 19.5rem;
@@ -40,9 +40,9 @@ p {
 
 button {
     border: 1px solid black;
+    font-size: 36px;
     cursor: pointer;
     padding: 1rem 2rem;
-    font-size: 2rem;
     background-color: #d8d9db;
 }
 
