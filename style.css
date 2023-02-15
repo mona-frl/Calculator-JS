@@ -1,21 +1,17 @@
 body {
+    font-family: 'Open Sans', sans-serif;
     text-align: center;
-    margin: 5%;
+    margin: 20px 50px;
     background-color: #ececed;
 }
 
 h1,
 h2 {
-    font-family: 'Open Sans', sans-serif;
     margin: 0;
 }
 
 h2 {
-    padding-bottom: 2rem;
-}
-
-p {
-    font-family: 'Open Sans', sans-serif;
+    padding-bottom: 24px;
 }
 
 .grid-item {
@@ -29,44 +25,44 @@ p {
     font-family: "Courier New", Courier, monospace;
     word-break: break-all;
     background-color: #1f1e1e;
-    text-orientation: sideways-right;
-    font-size: 46px;
+    font-size: 48px;
     text-align: right;
     color: white;
-    width: 19.5rem;
-    padding-top: 3rem;
-    padding-right: 0.5rem;
+    width: 312px;
+    padding: 48px 8px 0 0;
 }
 
 button {
     border: 1px solid black;
     font-size: 36px;
+    height: 80px;
     cursor: pointer;
-    padding: 1rem 2rem;
+    padding: 16px 24px;
     background-color: #d8d9db;
 }
 
 .clear {
-    width: 10rem
+    width: 160px;
 }
 
 .backspace {
-    width: 5rem;
+    width: 80px;
+    font-size: 30px;
 }
 
 .operator,
 .result {
-    width: 5rem;
+    width: 80px;
     background-color: #df974c;
     color: white;
 }
 
 .number {
-    width: 5rem;
+    width: 80px;
 }
 
 .zero {
-    width: 15rem;
+    width: 240px;
 }
 
 .number:hover,
@@ -92,12 +88,13 @@ button {
 }
 
 footer {
-    margin-top: 5rem;
+    margin: 50px 0 10px;
     color: #1f1e1e;
 }
 
 a {
     color: #1f1e1e;
+    padding-right: 7px;
 }
 
 a:hover {

@@ -1,3 +1,3 @@
 # Calculator Project - FrontEnd Masters
 
-A copycat calculator of IOS using vanilla javascript to make it work.
+A simple version of a calculator using Vanilla JavaScript, using else if statements to handle the cases and eval to make the calculation.
