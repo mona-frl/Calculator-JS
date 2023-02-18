@@ -66,6 +66,8 @@ function operationHandler(event) {
 //initiates the listener using the queryselector to see everytime a button has been clicked inside that div
 // then assigns the buttonclicked variable based on the classname and runs the operation function
 function init() {
+
+
     document
         .querySelector(".calculator")
         .addEventListener("click", (event) => {
